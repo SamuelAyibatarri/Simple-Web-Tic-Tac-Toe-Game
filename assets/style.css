@@ -2,11 +2,13 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 p, h5, h2, div {
